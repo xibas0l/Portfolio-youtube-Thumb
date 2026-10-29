@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xibas0l.github.io/Portfolio-youtube-Thumb/sitemap.xml
