@@ -34,6 +34,7 @@
       property="og:image"
       content="https://xibas0l.github.io/Portfolio-youtube-Thumb/assets/images/thumb_user_10.jpg"
     />
+    <meta property="og:site_name" content="Xibas Portfólio" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -62,6 +63,23 @@
 
     <!-- Favicon Oficial XIBAS -->
     <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+    <!-- Dados Estruturados (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["Person", "ProfessionalService"],
+        "name": "Xibas",
+        "alternateName": "XIBAS",
+        "jobTitle": "Thumbmaker, Editor de Vídeo e Roterista",
+        "url": "https://xibas0l.github.io/Portfolio-youtube-Thumb/",
+        "sameAs": [
+          "https://x.com/Xibas251571",
+          "https://www.instagram.com/xibas0l/"
+        ],
+        "description": "Portfólio de Xibas, thumbmaker, editor de vídeo e roterista especializado em canais de games e ensaios em vídeo para o YouTube."
+      }
+    </script>
   </head>
   <body>
     <!-- Background Animated Gradients -->
@@ -88,8 +106,10 @@
 
         <nav class="nav-menu" id="navMenu">
           <a href="#hero" class="nav-link active">Início</a>
-          <a href="#portfolio" class="nav-link">Portfólio</a>
-          <a href="#processo" class="nav-link">Como Funciona</a>
+          <a href="#thumbs" class="nav-link">Thumbs</a>
+          <a href="#edicoes" class="nav-link">Edições</a>
+          <a href="#roteiros" class="nav-link">Roteiros</a>
+          <a href="#como-funciona" class="nav-link">Como Funciona</a>
           <a href="#contato" class="nav-link nav-cta-mobile">Fazer Pedido</a>
         </nav>
 
@@ -140,7 +160,7 @@
             </p>
 
             <div class="hero-cta-group">
-              <a href="#portfolio" class="btn btn-primary btn-glow">
+              <a href="#thumbs" class="btn btn-primary btn-glow">
                 <svg
                   width="20"
                   height="20"
@@ -208,7 +228,7 @@
       </section>
 
       <!-- Portfolio Section -->
-      <section class="portfolio-section" id="portfolio">
+      <section class="portfolio-section" id="thumbs">
         <div class="container">
           <div class="section-header text-center">
             <span class="section-badge">GALERIA DE TRABALHOS</span>
@@ -266,500 +286,7 @@
 
             <!-- Viewport do Carrossel -->
             <div class="carousel-viewport" id="carouselViewport">
-              <div class="carousel-track" id="portfolioTrack">
-                <!-- Card 7 - Persona -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="ensaios"
-                  data-id="7"
-                  data-video="https://youtu.be/sBpEwh5hg1w?si=Q7wXCgy4RSmvRRPR"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_8.jpg"
-                      alt="Thumbnail Persona Chato"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">JRPG / Persona</div>
-                    <div class="thumb-ctr-tag">Narrativa</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      A ROTINA DIÁRIA DE PERSONA É REALMENTE BOA OU CHATA?
-                    </h3>
-                    <p class="thumb-desc">
-                      Storytelling com Joker entediado na sala de aula e a
-                      palavra 'CHATO' em destaque magnético.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 1 - The Witcher 3 -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="rpg"
-                  data-id="1"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_6.jpg"
-                      alt="Thumbnail The Witcher 3 O Melhor"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">RPG / The Witcher</div>
-                    <div class="thumb-ctr-tag">Storytelling</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      THE WITCHER 3: O MELHOR RPG DE TODOS OS TEMPOS?
-                    </h3>
-                    <p class="thumb-desc">
-                      Geralt no trono, iluminação volumétrica, asas demoníacas e
-                      tipografia de alto contraste.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 11 - Hollow Knight: Silksong -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="metroidvania"
-                  data-id="11"
-                  data-video="https://youtu.be/5vLs_Jh3LYk?si=-9TEC4jBI0ab_jda"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_11.jpg"
-                      alt="Thumbnail Hollow Knight Silksong Jornada"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">Metroidvania / Silksong</div>
-                    <div class="thumb-ctr-tag">Storytelling</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      HOLLOW KNIGHT SILKSONG: A JORNADA DE HORNET
-                    </h3>
-                    <p class="thumb-desc">
-                      Hornet em destaque recortado sobre a cartografia do reino,
-                      iluminação dramática e palavra 'JORNADA' em tipografia
-                      vermelha de alto contraste.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 10 - Bloodborne -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="souls"
-                  data-id="10"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_10.jpg"
-                      alt="Thumbnail Bloodborne Um Jogo Único"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">Souls / Bloodborne</div>
-                    <div class="thumb-ctr-tag">Hierarquia Visual</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      BLOODBORNE: O QUE TORNA ESSE PESADELO UM JOGO TÃO ÚNICO?
-                    </h3>
-                    <p class="thumb-desc">
-                      Caçador solitário em silhueta contra a grandiosa Lua de
-                      Sangue volumétrica, tipografia imponente e atmosfera de
-                      terror gótico.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 2 - Elden Ring -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="souls"
-                  data-id="2"
-                  data-video="https://youtu.be/FQ_VcC_I76o?si=K0FsN7xqz2IlE1v7"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_2.jpg"
-                      alt="Thumbnail Elden Ring Escondido"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">Souls / Elden Ring</div>
-                    <div class="thumb-ctr-tag">Teste A/B</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      O MAIOR SEGREDO ESCONDIDO NO CASULO DE ELDEN RING
-                    </h3>
-                    <p class="thumb-desc">
-                      Efeito de papel rasgado (torn paper) com destaque para
-                      Miquella e palavra-chave chamativa.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 3 - Lies of P / Soulslikes -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="souls"
-                  data-id="3"
-                  data-video="https://youtu.be/wV0SwOkku3Q?si=zlkwqfALfciG5WEK"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_7.jpg"
-                      alt="Thumbnail Lies of P Soulslikes"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">Souls / Soulslikes</div>
-                    <div class="thumb-ctr-tag">Contraste</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      A EVOLUÇÃO E O FUTURO DOS SOULSLIKES MODERNOS
-                    </h3>
-                    <p class="thumb-desc">
-                      Composição em mosaico de espelho quebrado com Pinocchio e
-                      lendários protagonistas.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 4 - Metroidvania -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="metroidvania"
-                  data-id="4"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_3.jpg"
-                      alt="Thumbnail Metroidvania Castlevania Hollow Knight"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">Metroidvania & Ação</div>
-                    <div class="thumb-ctr-tag">Ponto Focal</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      METROIDVANIA: A ERA DE OURO DO GÊNERO NA INDÚSTRIA
-                    </h3>
-                    <p class="thumb-desc">
-                      Espada central com Samus, Alucard, Hollow Knight e
-                      Blasphemous em equilíbrio visual.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 5 - Dark Souls -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="souls"
-                  data-id="5"
-                  data-video="https://youtu.be/AHif02zPkR8?si=x0uV5USz8r3-mOqS"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_4.jpg"
-                      alt="Thumbnail Dark Souls Desastre"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">Souls / Dark Souls</div>
-                    <div class="thumb-ctr-tag">Iluminação</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      POR QUE ESSE CHEFE FOI UM VERDADEIRO DESASTRE?
-                    </h3>
-                    <p class="thumb-desc">
-                      Silhueta imponente do Black Knight em primeiro plano
-                      ladeado por Ornstein, Smough e Gwyn.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 6 - Final Fantasy XV Chamas -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="rpg"
-                  data-id="6"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_5.jpg"
-                      alt="Thumbnail Final Fantasy XV Brasas"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">RPG / Final Fantasy XV</div>
-                    <div class="thumb-ctr-tag">Composição</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      FINAL FANTASY XV: A VERDADE SOMBRIA DA JORNADA
-                    </h3>
-                    <p class="thumb-desc">
-                      Moldura em chamas ardentes com partículas de brasas e
-                      recortes dos guardiões de Noctis.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 8 - Dark Souls: O Primeiro -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="souls"
-                  data-id="8"
-                  data-video="https://youtu.be/uctMdg7ekAY?si=7ibjLMVAc-G4bmA8"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_1.jpg"
-                      alt="Thumbnail Dark Souls O Primeiro Chefe"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">Souls / Dark Souls</div>
-                    <div class="thumb-ctr-tag">Tipografia</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      QUAL É O PRIMEIRO CHEFE MAIS DIFÍCIL DOS SOULS?
-                    </h3>
-                    <p class="thumb-desc">
-                      Composição em três atos com Asylum Demon, Iudex Gundyr e o
-                      impacto da tipografia 'O PRIMEIRO'.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Card 9 - Metal Gear Rising / Hack and Slash -->
-                <div
-                  class="thumb-card carousel-slide"
-                  data-category="metroidvania"
-                  data-id="9"
-                >
-                  <div class="thumb-media">
-                    <img
-                      src="assets/images/thumb_user_9.jpg"
-                      alt="Thumbnail Metal Gear Rising Aura e Ego"
-                      loading="lazy"
-                    />
-                    <div class="thumb-overlay">
-                      <button
-                        class="btn-inspect"
-                        aria-label="Ver em tela cheia"
-                      >
-                        <svg
-                          width="22"
-                          height="22"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                        >
-                          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                        </svg>
-                        <span>Expandir</span>
-                      </button>
-                    </div>
-                    <div class="thumb-tag">Ação / Metal Gear Rising</div>
-                    <div class="thumb-ctr-tag">Ponto Focal</div>
-                  </div>
-                  <div class="thumb-info">
-                    <h3 class="thumb-title">
-                      AURA + EGO: O ÁPICE DO ESTILO HACK & SLASH
-                    </h3>
-                    <p class="thumb-desc">
-                      Raiden em pose de corte dinâmico, brilho de lente nos
-                      olhos cibernéticos e tipografia vermelha de alto contraste
-                      com borda rasgada.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <div class="carousel-track" id="portfolioTrack"></div>
             </div>
 
             <!-- Botão Próximo -->
@@ -812,8 +339,42 @@
         </div>
       </section>
 
+      <!-- Seção de Edições de Vídeo -->
+      <section class="videos-section" id="edicoes">
+        <div class="container">
+          <div class="section-header text-center">
+            <span class="section-badge">EDIÇÕES &amp; DIREÇÃO</span>
+            <h2 class="section-title">
+              Edições &amp; <span class="gradient-text">Direção Visual</span>
+            </h2>
+            <p class="section-subtitle">
+              Projetos completos com concepção de roteiro, direção de cenas,
+              ritmo de edição e thumbnail alinhados para máxima retenção.
+            </p>
+          </div>
+          <div class="videos-grid" id="videosGrid"></div>
+        </div>
+      </section>
+
+      <!-- Seção de Roteiros & Storytelling -->
+      <section class="scripts-section" id="roteiros">
+        <div class="container">
+          <div class="section-header text-center">
+            <span class="section-badge">ROTEIROS &amp; STORYTELLING</span>
+            <h2 class="section-title">
+              Estrutura de <span class="gradient-text">Roteiros</span>
+            </h2>
+            <p class="section-subtitle">
+              Método em 4 etapas — das ideias iniciais aos 7 segmentos
+              narrativos, notas de edição e texto final.
+            </p>
+          </div>
+          <div class="scripts-grid" id="scriptsGrid"></div>
+        </div>
+      </section>
+
       <!-- Como Funciona / Processo -->
-      <section class="process-section" id="processo">
+      <section class="process-section" id="como-funciona">
         <div class="container">
           <div class="section-header text-center">
             <span class="section-badge">FLUXO SIMPLES E EFICIENTE</span>
@@ -1203,6 +764,26 @@
       </div>
     </div>
 
+    <!-- Script Structure Modal -->
+    <div
+      class="lightbox-modal script-modal"
+      id="scriptModal"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="lightbox-backdrop" id="scriptModalBackdrop"></div>
+      <div class="lightbox-content script-modal-content">
+        <button
+          class="lightbox-close"
+          id="scriptModalClose"
+          aria-label="Fechar estrutura do roteiro"
+        >
+          &times;
+        </button>
+        <div class="script-modal-body" id="scriptModalBody"></div>
+      </div>
+    </div>
+
     <!-- Toast Notification (Cópia do Discord) -->
     <div class="toast-notification" id="toastNotification">
       <span class="toast-icon">✓</span>
@@ -1210,6 +791,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="js/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
